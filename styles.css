@@ -180,3 +180,17 @@ body.projects-class {
     color: yellow;
     text-shadow: #959393 1px 1px 1px;
 }
+
+.imagebtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%; 
+}
+ 
+.centerpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
