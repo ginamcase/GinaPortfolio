@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body.about-class {
+    height: 100vh;
+    background-color: rgb(190, 189, 189);
+
+}
+
+.iframe-container {
+    align-items: right;
+}
+
+
+body.index-class {
+    height: 100vh;
+    background-color: gray;
+    background-image: url(backgroundimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
+
+
+.index-class h1{
+    text-align: right;
+    font-size: 7.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lime;
+    text-shadow: #474747 3px 5px 2px;
+
+}
+
+.index-class h2{
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: greenyellow;
+    text-shadow: #474747 3px 5px 2px;
+}
+
+
+
+
+
+
+
+
+.about-class h1{
+    text-align: center;
+    font-size: 7.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(164, 14, 117);
+    text-shadow: #474747 3px 5px 2px;
+
+}
+
+.about-class h2{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(164, 14, 117);
+    text-shadow: #474747 3px 5px 2px;
+}
+
+.about-class h3{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(164, 14, 117);
+    text-shadow: #959393 1px 1px 1px;
+}
+
+.about-class p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(164, 14, 117);
+    text-shadow: #959393 1px 1px 1px;
+}
+
+.contact-icons .contact-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: rgb(164, 14, 117);
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .contact-icons .contact-icon:last-child {
+    margin-right: 0;
+  }
+  .contact-icons .contact-icon:hover {
+    background-color: rgb(230, 34, 167);
+  }
+
+
+.btn{
+    display: table;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .02;
+    font-weight: 700;
+    color: yellow;
+    background-color: black;
+    border-radius: .25em;
+    margin-bottom: 1em;
+    transition: .2s all ease-in-out;
+    box-shadow: 0 0.2em #959393,0 0.12em .15em #474747 .5 inset;
+}
+
+.btn:active{
+    box-shadow: 0 1em #959393,0 0.12em .15em #474747 .7 inset;
+}
+
+.btn-medium {
+    font-size: 2em;
+    padding: 1em 1em;
+}
+
+.btn:hover{
+    background: black;
+    color: rgb(96, 10, 123);
+    transition: .2s all ease-in-out;
+}
+
+
+
+body.projects-class {
+    height: 100vh;
+    background-color: gray;
+    background-image: url(gradient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: justify;
+    height: 100vh;
+}
+.projects-class h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-shadow: #474747 3px 5px 2px;
+
+}
+
+.projects-class h2{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    text-shadow: #474747 3px 5px 2px;
+}
+
+.projects-class h3{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    text-shadow: #959393 1px 1px 1px;
+}
+
+.projects-class p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    text-shadow: #959393 1px 1px 1px;
+}
